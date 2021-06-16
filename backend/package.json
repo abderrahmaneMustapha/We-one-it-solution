@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A list of star trek episodes by seasone",
+  "main": "web.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node web.js",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "WeOneIT"
+  ],
+  "author": "Abderrahmane Mustapha",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "mocha": "^9.0.0",
+    "node-fetch": "^2.6.1",
+    "oas3-tools": "^2.2.3"
+  },
+  "devDependencies": {
+    "supertest": "^6.1.3"
+  }
+}
